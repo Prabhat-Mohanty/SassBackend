@@ -1,6 +1,6 @@
 ﻿namespace Domain.Common
 {
-    internal interface ITenantEntity
+    public interface ITenantEntity
     {
         Guid TenantId { get; set; }
     }
