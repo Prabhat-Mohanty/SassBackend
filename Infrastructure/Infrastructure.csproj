@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Persistence\Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Persistence\ApplicationDbContext.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
     </None>
