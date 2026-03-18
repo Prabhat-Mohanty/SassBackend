@@ -2,12 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using Application.Common.Interfaces;
-using System.Linq.Expressions;
-using Domain.Common;
 
 namespace Infrastructure.Persistence
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
         private readonly ITenantService _tenantService;
 
